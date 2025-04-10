@@ -1,56 +1,98 @@
+# SkyStack Cloud Vault
 
-# Welcome to your SkyStack Cloud Vault project
+**SkyStack Cloud Vault** is a modern, secure, and scalable cloud storage solution built using **React**, **TypeScript**, **Tailwind CSS**, and **Supabase**. It offers seamless file uploads, structured folder management, real-time storage monitoring, secure authentication, and file sharing—hosted live at 👉 [https://brivo.in](https://brivo.in)
 
-## Project info
+---
 
-A secure cloud storage solution for all your files.
+## 🌐 Live Demo
 
-## How can I edit this code?
+🚀 Explore SkyStack Cloud Vault: [https://brivo.in](https://brivo.in)
 
-There are several ways of editing your application.
+---
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
+- 🔐 **Authentication**: Secure sign-up/sign-in using Supabase Auth.
+- 📁 **Folder Management**: Create, rename, and delete folders for organizing files.
+- ⬆️ **File Uploading**: Upload any file type with upload progress tracking.
+- 👁️ **File Preview**: Preview supported file types before downloading.
+- 🔗 **Link Sharing**: Generate shareable links to any uploaded file.
+- 📊 **Real-time Dashboard**: Live tracking of your storage usage.
+- 📱 **Responsive UI**: Sleek design built with Tailwind CSS and responsive layouts.
+- 📦 **Scalable Backend**: Powered by Supabase and AWS S3-compatible storage.
+- 🔄 **Live Sync**: Real-time updates using Supabase subscriptions.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧰 Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Layer         | Technology                 |
+|---------------|----------------------------|
+| Frontend      | React, TypeScript, Tailwind CSS |
+| Backend       | Supabase (PostgreSQL, Auth, Storage) |
+| Deployment    | Vercel / Netlify / Custom Server |
+| Hosting       | [https://brivo.in](https://brivo.in) |
+| Object Storage| Supabase S3-compatible bucket (via AWS) |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/skystack-cloud-vault.git
+cd skystack-cloud-vault
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Set Up Environment Variables
+Create a .env file and add your Supabase keys:
+
+env
+Copy
+Edit
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+4. Run the App
+bash
+Copy
+Edit
 npm run dev
-```
+Visit http://localhost:5173 (or appropriate port) in your browser.
 
-**Edit a file directly in GitHub**
+📁 Project Structure
+bash
+Copy
+Edit
+src/
+├── components/        # Reusable UI components
+├── pages/             # App pages (Dashboard, Auth, etc.)
+├── services/          # Supabase integration and API utilities
+├── utils/             # Helper functions
+├── styles/            # Tailwind configuration
+🚀 Future Enhancements
+🔒 End-to-end file encryption
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🧠 AI-based file suggestions
 
-**Use GitHub Codespaces**
+📝 File versioning and history
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📱 Progressive Web App (PWA) support
 
-## What technologies are used for this project?
+🧾 Activity logs
 
-This project is built with:
+🙌 Acknowledgements
+Supabase for BaaS support
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+React for UI development
+
+Tailwind CSS for styling
+
+🧑‍💻 Author
+Arnab Rai
+Email: 22bds005@iiitdwd.ac.in
+Project Link: https://brivo.in
+
